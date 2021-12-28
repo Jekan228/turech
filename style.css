@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background:url(./logo.png)no-repeat;
+    height: 92px;
+    width: 131px;
+}
+.ur{
+    background-color:#4AD295;
+    height: 20px; 
+    width: 35px;
+    border-radius: 2px;
+    margin-left: 30px;
+    text-align: center;
+}
+.val{
+    width: 74px; 
+    height: 38px;
+    margin-left: 30px;
+}
+.header{
+    width: 100%;
+
+}
+.container{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.top{
+    display:flex ;
+    width: 100%;
+    height: 100px;
+}
+.lin{
+    width: 1px;
+    height: 40px;
+    background-color: #E2E2E2;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.soc i{
+    height: 19px;
+    width: 13px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.nom{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.phon{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.red{
+    width: 240px;
+    height: 55px;
+    background-color: #E2E2E2;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.re{
+    margin-top: 15px;
+    margin-left: -20px;
+    background-color: #DD4053;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+}
+.her{
+    background-color: #E2E2E2;
+    width: 240px;
+    height: 55px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 2px;
+    text-align: center;
+  
+}
+.he{
+    margin-top: 15px;
+    margin-left: -20px;
+    width: 55px;
+    height: 55px;
+    background-color:#4AD295;
+    border-radius: 2px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #E2E2E2;
+}
+.menu{
+    width: 100%;
+}
+ul{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+}
+ul li ul {
+    display: none;
+}
+ul li:hover >ul {
+    display: block;
+}
+ul li ul li {
+    display: block;
+}
+li:hover {
+    background-color: rgb(202, 202, 202);
+}
+.fa fa-calendar-check-o{
+    margin-top: 20px;
+}
+.kar{
+    margin: 0 auto;
+    height: 590px;
+    width: 100%;
+    max-width: 2000px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(./Group.png) no-repeat;  
+    background-size: cover;
+}
+.container-banner{
+    width: 80%;
+    max-width: 1000px;
+     margin: 0 auto;
+    color: #fff;
+}
+.kn{
+    text-align: center;
+    border: 1px solid wheat;
+    color: #fff;
+    
+    width: 150px;
+    height: 30px;
+   
+    
+}
+.ghost-button:hover,
+.ghost-button:active {
+  background-color: #fff;
+  
+  color: #000;
+}
+.kn a{
+    color: #fff;
+    text-decoration: none;
+}
+.slo{
+    text-align: center;
+    border: 1px solid wheat;
+    color: #fff;
+    margin-top: 10px; 
+    width: 150px;
+    height: 30px;
+    margin-top: 80px;
+}
+.te{
+font-size: x-large;
+vertical-align: center;
+}
+.contaner{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.tu{
+    height: 72px;
+    width: 624px;
+    margin-top: 20px;
+}
+.contaner h3{
+    color: #777474;
+}
+.m{
+    background-color: #837f7f;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+.cho{
+    justify-content: space-between;
+    display: flex;
+    float: left;
+
+}
+.n{
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+}
+.kru{
+    float: left;
+    
+}
+.krug{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 884px;
+    top: 697px;
+    border-radius: 100%;
+    border: 1.2px dashed #000000;
+    box-sizing: border-box;
+    background: url(./cердце.png)no-repeat;
+    margin: 200px;
+    margin-right: 150px;
+}
+.krug h2{
+    margin-left: 40px;
+}
+.ochk{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 884px;
+    top: 697px;
+    border-radius: 100%;
+    border: 1.2px dashed #000000;
+    box-sizing: border-box;
+    background: url(./человек.png)no-repeat;
+    margin-top: 250px;
+}
+.ochk h2{
+    margin-left: 40px;
+}
+.popk{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 884px;
+    top: 697px;
+    border-radius: 100%;
+    border: 1.2px dashed #000000;
+    box-sizing: border-box;
+    background: url(./звезда.png)no-repeat;
+    margin-top: 300px;
+}
+.popk h2{
+    margin-left: 40px;
+}
